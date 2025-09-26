@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC01E095-1E80-47F0-A3A8-B43165533F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaramelAgency.Core", "core\CaramelAgency.Core\CaramelAgency.Core.csproj", "{48498F16-FFB7-4B39-8DB1-0F974458C17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaramelAgency.Infrastructure", "CaramelAgency.Infrastructure\CaramelAgency.Infrastructure.csproj", "{75885B2A-546A-4ED1-80F3-C18C18526B59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{260F151D-AD8B-4A00-982E-2609F52BE484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaramelAgency.PublicWebApi", "WebApi\CaramelAgency.PublicWebApi\CaramelAgency.PublicWebApi.csproj", "{00458A4F-4264-4429-AEC5-CA0CE95A7A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48498F16-FFB7-4B39-8DB1-0F974458C17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48498F16-FFB7-4B39-8DB1-0F974458C17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48498F16-FFB7-4B39-8DB1-0F974458C17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48498F16-FFB7-4B39-8DB1-0F974458C17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75885B2A-546A-4ED1-80F3-C18C18526B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75885B2A-546A-4ED1-80F3-C18C18526B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75885B2A-546A-4ED1-80F3-C18C18526B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75885B2A-546A-4ED1-80F3-C18C18526B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00458A4F-4264-4429-AEC5-CA0CE95A7A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00458A4F-4264-4429-AEC5-CA0CE95A7A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00458A4F-4264-4429-AEC5-CA0CE95A7A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00458A4F-4264-4429-AEC5-CA0CE95A7A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48498F16-FFB7-4B39-8DB1-0F974458C17C} = {CC01E095-1E80-47F0-A3A8-B43165533F87}
+		{75885B2A-546A-4ED1-80F3-C18C18526B59} = {CC01E095-1E80-47F0-A3A8-B43165533F87}
+		{260F151D-AD8B-4A00-982E-2609F52BE484} = {CC01E095-1E80-47F0-A3A8-B43165533F87}
+		{00458A4F-4264-4429-AEC5-CA0CE95A7A9F} = {260F151D-AD8B-4A00-982E-2609F52BE484}
+	EndGlobalSection
+EndGlobal
